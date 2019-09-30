@@ -1,0 +1,18 @@
+<h2>Contacts</h2>
+<div *ngFor="let product of products; let i = index">
+  <h4>
+    <a (click)= "contactDetails(contacts[i].id)" [title]="contacts[i].firstName+contacts.lastName + ' details'">
+       {{ contacts[i].firstName }} {{contacts[i].lastName}}
+
+    </a>
+  </h4>
+
+  <button (click) ="edit(contacts[i].id)"><i class="material-icons contact-button">edit</i></button>
+  <button (click)="delete()"><i class="material-icons contact-button">delete</i></button>
+
+</div>
+<!--
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

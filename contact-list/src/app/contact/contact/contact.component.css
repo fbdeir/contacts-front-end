@@ -1,0 +1,13 @@
+.material-icons.contact-button{
+  color:white;
+}
+button{
+  margin-right: 3%;
+  float: right;
+  height: 30%;
+  
+}
+.button-pair{
+  display: flex;
+  align-items: center;
+}

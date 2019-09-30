@@ -1,0 +1,18 @@
+h4{
+  width: 50%;
+}
+.material-icons.contact-button{
+  color:white;
+}
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+button{
+  margin-right: 3%;
+  float: right;
+  height: 30%;
+  
+}
